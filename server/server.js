@@ -9,7 +9,7 @@ app.use(cors()); // 모든 출처에서의 요청 허용
 app.use(express.json()); // JSON 파싱 미들웨어
 
 // MongoDB Atlas 설정 
-const mongoURI ='mongodb+srv://user:1234@privacy.lfja4.mongodb.net/sensorDB?retryWrites=true&w=majority';
+const mongoURI ='mongodb+srv://user:1234@cluster0.5uyhb.mongodb.net/sensorDB?retryWrites=true&w=majority&appName=Cluster0';
 
 mongoose.connect(mongoURI)
   .then(() => console.log('MongoDB Atlas에 연결되었습니다.'))
