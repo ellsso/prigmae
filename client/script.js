@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const SERVER_URL = "https://e571-1-229-207-236.ngrok-free.app/api/motion-data"; // 외부에서 접근 가능한 서버 URL
+    const SERVER_URL = "https://prigame.netlify.app/api/motion-data"; // 외부에서 접근 가능한 서버 URL
 
     // 모션 센서 데이터 수집 배열
     let motionData = [];
